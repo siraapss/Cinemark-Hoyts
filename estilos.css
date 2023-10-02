@@ -10,3 +10,5 @@ footer {background-color: #c42227}
 .card-body {background-color:#F8F6F0;border-color: black; margin-top: 20px}
 .descripcion1 p {color: black}
 .btn {border: none}
+@media (max-width: 768px) {.hidden-mobile {display: none !important;}}
+
