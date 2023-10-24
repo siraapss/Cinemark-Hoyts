@@ -1,14 +1,46 @@
 @charset "UTF-8";
 /* CSS Document */
 body {background-color: #F8F6F0; font-family: 'Roboto', sans-serif;}
-.navbar {background-color: #c42227}
+.navbar {background-color: #E9E6Dd}
 .navbar-nav .nav-item:hover .nav-link {color: #F8F6F0;}
 .my-custom-button {background-color: #c42227;border: none}
 .my-custom-button1 {background-color: #c42227;border: none}
 .btn:hover img {transform: scale(1.1);transition: transform 0.3s ease;}
-footer {background-color: #c42227}
+footer {background-color: #E9E6Dd; margin-top: 50px}
+.columnafooter a{text-decoration: none; color:black}
+.columnafooter a:hover {text-decoration: underline}
 .card-body {background-color:#F8F6F0;border-color: black; margin-top: 20px}
 .descripcion1 p {color: black}
 .btn {border: none}
 @media (max-width: 768px) {.hidden-mobile {display: none !important;}}
-
+.carousel-control-prev {background-color:#F8F6F0; width: 50px;height:50px; margin-top: 120px}
+.carousel-control-next {background-color: #F8F6F0; width: 50px;height:50px; margin-top: 120px}
+.card-text {color: white; text-align: center}
+.card-body {background-color:#c42227;margin-top: 0}
+.card:hover {border-color:#DFBE16 }
+.btn-candy:hover img {transform: scale(1.1);transition: transform 0.3s ease;}
+.card-body-2 {background-color:black;margin-top: 0;padding-top: 15px;padding-bottom: 15px}
+.card-body-3 {background-color:#CDB54F;margin-top: 0;padding-top: 15px;padding-bottom: 15px}
+.card-body {text-align: center; color: white}
+.miboton1 {background-color: #c42227; margin-top: 15px; color: white}
+.miboton1:hover {background-color: #DFBE16;color: white }
+.form-group {margin-top: 10px}
+.miboton2 {background-color: #F8F6F0; margin-top: 15px;}
+.miboton2:hover {text-decoration: underline}
+.mitarjeta img {width:400px; height: auto;margin-top: 50px;margin-bottom: 90px;border-radius: 30px}
+.card-datos {background-color:#F8F6F0; color: black;}
+.mi-card {border-color: black; margin-top: 10px;border-radius: 10px;}
+.mi-card:hover {border-color:#c42227 }
+.miboton3 {width: 30%; background-color: #c42227; margin-top: 30px;margin-bottom: 120px; color: white}
+.miboton3:hover {background-color: #DFBE16;color: white }
+.miboton4 {width: 30%; background-color:black; color: white;margin-bottom: 10px}
+.miboton4:hover {background-color: #c42227;color: white }
+.miboton5 {width: 30%; background-color:#C4A834;color: white;margin-bottom: 10px}
+.miboton5:hover {background-color: #c42227;color: white }
+.mis-textos {justify-content: center; text-align: center}
+.miboton6 {background-color: none;border-color: none }
+.miboton6:hover img {transform:none}
+.mi-cardbody {background-color: #c42227}
+.mi-cardbody2 {background-color:#c42227;border: none;font-size: 12px}
+.col {justify-content: center;display: flex}
+.col-md-4 {justify-content: center;display: flex}
